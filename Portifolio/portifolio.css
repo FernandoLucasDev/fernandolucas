@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Lobster&family=Megrim&family=Playfair+Display+SC:wght@900&family=Questrial&display=swap');
+a#brand{
+    font-family:  'Megrim', cursive;;
+}
+div#principal{
+    width: 55%;
+    margin: auto;
+    text-align: justify;
+}
+div#trabalhos{
+    display: inline-flex;
+}
+a{
+    text-decoration: none;
+}
+@media  screen and (max-width: 780px) {
+    div#principal{
+        width: 100%;
+        margin: auto;
+        text-align: justify;
+    }
+    div#trabalhos{
+        display: block;
+        width: 100%;
+        margin: auto;
+        padding: auto;
+
+    }
+}
