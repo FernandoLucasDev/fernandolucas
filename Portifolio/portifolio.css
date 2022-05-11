@@ -13,7 +13,7 @@ div#trabalhos{
 a{
     text-decoration: none;
 }
-@media  screen and (max-width: 780px) {
+@media  screen and (max-width: 720px) {
     div#principal{
         width: 100%;
         margin: auto;
