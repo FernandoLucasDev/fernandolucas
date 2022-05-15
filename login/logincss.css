@@ -1,0 +1,41 @@
+img#logo{
+    width: 200px;
+    height: 200px;
+    
+}
+div#principal{
+    width: 32%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+input#input{
+    width: 100%;
+}
+div#senha{
+    display: inline-flex;
+}
+button#login{
+    width: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(78, 78, 78);
+    background-color: rgb(255, 187, 61);
+}
+div#npa{
+    align-items: flex-end;
+}
+button#nConta{
+    width: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(78, 78, 78);
+    background-color: #cacaca;
+}
+@media screen and (max-width: 950px) {
+    div#principal{
+        width: 100%;
+        margin: auto;
+        padding-bottom: 30px;
+        
+    }
+}
