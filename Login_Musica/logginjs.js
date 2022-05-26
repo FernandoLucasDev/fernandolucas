@@ -1,5 +1,5 @@
 var time = 1;
-        setInterval(mImg, 5000);
+        setInterval(mImg, 500);
         function mImg(){
             var foto = document.getElementById("body");
             
@@ -12,8 +12,11 @@ var time = 1;
                     break;
                 case 3:
                     foto.src = foto.style.backgroundImage = "url('img3.jpg')";
-                    time = 1;
                     break;
             }
             time++;
+            if(time == 4){
+                time = 1;
+            }
         }
+        
