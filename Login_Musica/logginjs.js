@@ -1,5 +1,5 @@
 var time = 1;
-        setInterval(mImg, 500);
+        setInterval(mImg, 5000);
         function mImg(){
             var foto = document.getElementById("body");
             
