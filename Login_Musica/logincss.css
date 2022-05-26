@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Noticia+Text&display=swap');
+body{
+    background-image: url("img3.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+img#logo{
+    width: 300px;
+    height: 300px;
+}
+div#logo{
+    width: min-content;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 0%; padding-bottom: 0%; padding-left: 0%; padding-right: 0%;
+    border-radius: 10px;
+    background-color: #3f3f3f5d;
+}
+div#conteudo{
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 0%; padding-bottom: 0%; padding-left: 0%; padding-right: 0%;
+    border-radius: 10px;
+    background-color: #3f3f3f5d;
+}
+p{
+    font-family: 'Noticia Text', serif;
+    color: #fcfcf4;
+    
+}
+button#cadastrar{
+    width: 75%;
+    border: 1px solid #464646d7;
+    border-radius: 8px;
+    color: white;
+    background-color: #043500;
+    font-family: 'Almarai', sans-serif;
+    margin-bottom: 3px;
+}
+button#login{
+    width: 75%;
+    border: 1px solid #464646d7;
+    border-radius: 8px;
+    color: white;
+    background-color: #000435;
+    font-family: 'Almarai', sans-serif;
+    margin-bottom: 3px;
+}
+button#deletar{
+    width: 75%;
+    border: 1px solid #464646d7;
+    border-radius: 8px;
+    color: white;
+    background-color: #290202;
+    font-family: 'Almarai', sans-serif;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 700px) {
+
+    div#conteudo{
+        width: 90%;
+    }
+    
+}
