@@ -58,6 +58,36 @@ button#deletar{
     font-family: 'Almarai', sans-serif;
     margin-bottom: 10px;
 }
+div#header{
+    color: white;
+    background-color: #000435;
+}
+div#body{
+    color: white;
+    background-color: #bea359;
+}
+input#email, input#senha, input#cSenha, input#rEmail, input#rSenha{
+    width: 100%;
+    border-radius: 7px;
+    border: 1px solid rgba(56, 56, 56, 0.767);
+    margin-bottom: 3px;
+}
+button#cConta{
+    width: 100%;
+    background-color: #043500;
+    color: white;
+    border-radius: 7px;
+    border: 1px solid rgba(56, 56, 56, 0.767);
+    margin-bottom: 12px;
+}
+button#logar{
+    width: 100%;
+    background-color: #000435;
+    color: white;
+    border-radius: 7px;
+    border: 1px solid rgba(56, 56, 56, 0.767);
+    margin-bottom: 12px;
+}
 @media screen and (max-width: 700px) {
 
     div#conteudo{

@@ -19,13 +19,45 @@
         <p class="fs-3 text-center">Entre ou cadastre-se:</p><br>
         
         <center>
-        <button class="" id="cadastrar">Cadastre-se</button><br>
-        <button id="login">Login</button><br>
+            <button class="" id="cadastrar" data-bs-toggle="modal" data-bs-target="#exampleModal">Cadastre-se</button><br>
+        <button id="login" data-bs-toggle="modal" data-bs-target="#mLogin">Login</button><br>
         <button id="deletar">Excluir conta</button>
         </center>
         
     </div>
 
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered ">
+          <div class="modal-content">
+            <div class="modal-header" id="header">
+              <h5 class="modal-title" id="exampleModalLabel">Cadastre-se</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="body">
+              <input type="email" id="email" placeholder="Digite um e-mail">
+              <input type="password" placeholder="Digite uma senha" id="senha">
+              <input type="password" placeholder="Confirme sua senha" id="cSenha">
+              <button class=" " id="cConta">Criar conta</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="mLogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered ">
+          <div class="modal-content">
+            <div class="modal-header" id="header">
+              <h5 class="modal-title" id="exampleModalLabel">Entre em sua conta</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="body">
+              <input type="email" id="rEmail" placeholder="Qual seu e-mail?">
+              <input type="password" placeholder="Qual sua senha?" id="rSenha">
+              <button class=" " id="logar">Login</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
