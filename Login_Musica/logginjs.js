@@ -1,5 +1,7 @@
 var time = 1;
+
         setInterval(mImg, 5000);
+
         function mImg(){
             var foto = document.getElementById("body");
             
@@ -18,4 +20,20 @@ var time = 1;
             }
             time++;
         }
+
+function cadastrar(){
+
+    var email = document.getElementById("email");
+    var senha = parseInt(document.getElementById("senha").value);
+    var c_senha = parseInt(document.getElementById("cSenha").value);
+    var l_senha = document.getElementById("rEmail");
+    var l_senha = document.getElementById("rSenha");
+
+    if(senha == c_senha){
+        window.location.href = "pag2.html";
+    } else {
+        window.alert("Senha errada!")
+    }
+    
+}
         
