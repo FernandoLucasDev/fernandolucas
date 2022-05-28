@@ -16,6 +16,9 @@ div#principalD{
 a{
     text-decoration: none;
 }
+a#veja{
+    width: 100%;
+}
 @media  screen and (max-width: 720px) {
     div#principal{
         width: 100%;
