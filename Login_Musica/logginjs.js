@@ -23,7 +23,6 @@ var time = 1;
 
 function cadastrar(){
 
-    var email = document.getElementById("email");
     var senha = parseInt(document.getElementById("senha").value);
     var c_senha = parseInt(document.getElementById("cSenha").value);
     var l_senha = document.getElementById("rEmail");
@@ -34,6 +33,5 @@ function cadastrar(){
     } else {
         window.alert("Senha errada!")
     }
-    
 }
         
