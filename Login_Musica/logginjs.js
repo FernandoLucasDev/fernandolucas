@@ -13,10 +13,9 @@ var time = 1;
                 case 3:
                     foto.src = foto.style.backgroundImage = "url('img3.jpg')";
                     break;
+                case 4: 
+                time = 0;
             }
             time++;
-            if(time == 4){
-                time = 1;
-            }
         }
         
