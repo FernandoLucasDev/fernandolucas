@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Lobster&family=Megrim&family=Playfair+Display+SC:wght@900&family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Comfortaa:wght@300&family=Noticia+Text&family=Quattrocento+Sans&family=Raleway:wght@200;500&family=Work+Sans:wght@500&display=swap');
+
+body{
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 48), rgb(0, 0, 94) );
+    
+}
+.backG{
+    background-color: #0000a859;
+}
+.backG-2{
+    background-color: #ffffff98;
+}
+.border{
+    border-bottom: 1px solid #ffffff2c;
+    border-radius: 20px;
+}
+.shape{
+    border-radius: 20px;
+}
+.shape-img{
+    width: 145px;
+    height: 145px;
+    display: flex;
+    margin: auto;
+}
+.shape-img-2{
+    width: 159px;
+    height: 115px;
+    display: flex;
+    margin: auto;
+}
+a#brand{
+    font-family:  'Megrim', cursive;;
+}
+#nText{
+    color: #fff;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+div#corpo{
+   
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+button#linkedin{
+    margin-right: 20px;
+    width: 45%;
+    color: #fff;
+    background-image: linear-gradient(to left, #913b03, #f58235);
+    border: 0px;
+    box-shadow: 0px 0px 5px  #eeeeee;
+}
+button#git{
+    margin-left: 20px;
+    width: 45%;
+    color: #fff;
+    background-image: linear-gradient(to left, #003b08, #039216);
+    border: 0px;
+    box-shadow: 0px 0px 5px  #eeeeee;
+}
+button#git:hover{
+    background-image: none;
+    background-color: #171515;
+}
+button#linkedin:hover{
+    background-image: none;
+    background-color: #0e76a8;
+}
+button#ver{
+    width: 97%;
+    margin: auto;
+    color: #fff;
+    background-image: linear-gradient(to left, #1a003b, #5202bb);
+    border: 0px;
+    box-shadow: 0px 0px 5px  #eeeeee;
+}
+button#ver2{
+    width: 97%;
+    margin: auto;
+    color: #fff;
+    background-image: linear-gradient(to left, #2c0101, #960000);
+    border: 0px;
+    box-shadow: 0px 0px 5px  #eeeeee;
+}
+div#cards{
+    display: inline-flex;
+    background-color: #eeeeee36;
+    margin: 5px;
+}
+@media screen and (max-width: 995px) {
+    button#linkedin{
+        margin: auto;
+        width: 100%;
+        margin-bottom: 7px;
+        }
+    button#git{
+        margin: auto;
+        width: 100%;
+       }
+}
