@@ -88,6 +88,58 @@ div#cards{
     background-color: #eeeeee36;
     margin: 5px;
 }
+img#perfil{
+    display: flex;
+    border-radius: 130px;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    border: 3px solid #2c075c;
+}
+button#botaoPerfil{
+    width: 97%;
+    margin: auto;
+    color: #fff;
+    background-image: linear-gradient(to left, #1a003b, #5202bb);
+    border: 0px;
+    box-shadow: 0px 0px 5px  #eeeeee;
+}
+button#botaoPerfil1{
+    width: 100%;
+    margin: 4px;
+    color: #fff;
+    background-image: linear-gradient(to left, #042838, #0f81b6);
+    border: 0px;
+    box-shadow: 0px 0px 4px  #eeeeee;
+}
+button#botaoPerfil2{
+    width: 100%;
+    margin: 4px;
+    color: #fff;
+    background-image: linear-gradient(to left, #111010, #4d4646);
+    border: 0px;
+    box-shadow: 0px 0px 4px  #eeeeee;
+}
+button#botaoPerfil3{
+    width: 100%;
+    margin: 4px;
+    color: #fff;
+    background-image: linear-gradient(to left, #fa8b31,#9039c4, #d12d8d, #525dcf);
+    border: 0px;
+    box-shadow: 0px 0px 4px  #eeeeee;
+}
+button#botaoPerfil4{
+    width: 100%;
+    margin: 4px;
+    color: #fff;
+    background-image: linear-gradient(to left,  #003b08, #039216);
+    border: 0px;
+    box-shadow: 0px 0px 4px  #eeeeee;
+}
+div#t{
+    width: 30%;
+    margin: auto;
+}
 @media screen and (max-width: 995px) {
     button#linkedin{
         margin: auto;
@@ -98,4 +150,11 @@ div#cards{
         margin: auto;
         width: 100%;
        }
+}
+@media screen and (max-width: 635px){
+
+    div#t{
+    width: 100%;
+    margin: auto;
+}
 }
