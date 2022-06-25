@@ -11,6 +11,7 @@ function criar_nota(){
     filho.appendChild(texto);
     filho.classList.add("card");
     filho.id  = 'nota';
+    filho.style.padding="3px";
     filho.style.backgroundColor=bgC;
     filho.style.color=cT;
     
