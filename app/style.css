@@ -6,6 +6,9 @@
 .nav{
     background-color: #4b0374;
 }
+.ent{
+    background-color: #125c00;
+}
 .but{ 
     margin: auto;
     width: 100%; height: 35px;
@@ -13,6 +16,38 @@
     border-radius: 10px;
     margin-bottom: 5px;
     text-align: center;
+}
+.bnt-1{
+    background-color: #4b0374;
+    color: white;
+}
+.bnt-2{
+    background-color: #1b00b3;
+    color: white;
+}
+.bnt-3{
+    background-color: #be1a95;
+    color: white;
+}
+.bnt-4{
+    background-color: #7600a9;
+    color: white;
+}
+.bnt-5{
+    background-color: #125c00;
+    color: white;
+}
+.input{
+    width: 100%; height: 35px;
+    border: #4b0374 1px solid;
+    border-radius: 10px;
+    margin: auto;
+
+}
+.centralized{
+    margin: auto;
+    width: 100%;
+    margin-top: 40%;
 }
 button#ham{
     border: none;
