@@ -2,6 +2,7 @@
 
 .txt-1{
     color: white;
+    margin-left: 5%;
 }
 .nav{
     background-color: #4b0374;
@@ -49,6 +50,9 @@
     width: 100%;
     margin-top: 40%;
 }
+.icon{
+    width: 20px; height: 20px; display: flex;
+}
 button#ham{
     border: none;
 }
@@ -57,4 +61,7 @@ img#foto{
     margin: auto;
     width: 115px;
     height: 100px;
+}
+i{
+    margin-right: 3%;
 }
