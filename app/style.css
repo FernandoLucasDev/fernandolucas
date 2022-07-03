@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Fascinate&family=Fredoka+One&family=Kanit:wght@300&family=Lora&family=Satisfy&family=Smooch&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Fascinate&family=Fredoka+One&family=Kanit:wght@300&family=Lora&family=Quintessential&family=Satisfy&family=Smooch&display=swap');
 .txt-1{
     color: white;
     margin-left: 5%;
@@ -53,6 +53,9 @@
 .icon{
     width: 20px; height: 20px; display: flex;
 }
+.icon-2{
+    width: 100px; height: 100px; display: flex;
+}
 .img-1{
     width: 150px; height: 110px;
     border-radius: 20px;
@@ -78,4 +81,11 @@ img#foto{
 }
 i{
     margin-right: 3%;
+}
+button#ho{
+    width: 120px; height: 120px;
+    margin: auto; display: flex;
+    border-radius: 90px;
+    background-color: #7600a9;
+    border: 1px solid #1b00b3;
 }
