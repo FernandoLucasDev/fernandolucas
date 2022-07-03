@@ -53,6 +53,20 @@
 .icon{
     width: 20px; height: 20px; display: flex;
 }
+.img-1{
+    width: 150px; height: 110px;
+    border-radius: 20px;
+    margin: auto; display: flex;
+}
+.square{
+    border: 1px solid #4b0374;
+    border-radius: 20px;
+    margin: auto;
+    width: 94%;
+}
+body{
+    background-color: #ffcdf3;
+}
 button#ham{
     border: none;
 }
