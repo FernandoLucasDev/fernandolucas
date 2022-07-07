@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Login</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Fascinate&family=Fredoka+One&family=Gantari:wght@200&family=Kanit:wght@300&family=Lora&family=Quintessential&family=Raleway:wght@300&family=Satisfy&family=Smooch&display=swap');
+    .inp{
+        width: 100%;
+        margin: auto;
+        border: 1px solid gray;
+        border-radius: 10px;
+    }
+    body{
+      background-color: #D1D3D2;
+        
+    }
+    div#left{
+        height: 100vh;
+        background-image: url("mountain-7292048_1920.jpg");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: cover;
+        }
+    div#conteudo{
+        background-color: #bbbdbe;
+        width: 70%;
+        margin: auto;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    @media screen and (max-width: 750px){
+        div#conteudo{
+        background-color: #D1D3D2;
+        width: 100%;
+        margin: auto;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    }
+</style>
+<body>
+    <div class="container--fluid">
+        <div class="row">
+            <div class="col-md-6" id="left"></div>
+            <div class="col-md-6" style="display: grid;
+            place-items: center;">
+
+                <div id="conteudo">
+                    <form action="">
+                        <p class="fs-3 text-center text-dark" style="font-family: 'Raleway', sans-serif;">Faça Login ou cadastre-se:</p>
+                        <hr>
+                        <p class="text-center" style="font-family: 'Gantari', sans-serif;">Email</p>
+                        <input type="email" placeholder="EMAIL" class="inp">
+                        <p class="text-center" style="font-family: 'Gantari', sans-serif;">senha</p>
+                        <input type="password" placeholder="Senha" class="inp">
+                        <input type="submit" class="inp mt-2" value="Login" style="background-color: #2C456D; color: white;">
+                        <input type="button" class="inp mt-2" value="Cadastrar" style="background-color: #621207; color: white;">
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
